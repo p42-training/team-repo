@@ -8,5 +8,3 @@ RUN apk add --no-cache nfs-utils rpcbind
 COPY container-files /
 
 ENTRYPOINT ["/init"]
-
-CMD ["bash"]
