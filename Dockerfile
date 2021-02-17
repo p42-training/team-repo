@@ -4,6 +4,7 @@ MAINTAINER Jordan Clark mail@jordanclark.us
 
 
 RUN apk add --no-cache nfs-utils rpcbind
+RUN ls /
 
 COPY container-files /
 
