@@ -4,7 +4,7 @@ MAINTAINER Jordan Clark mail@jordanclark.us
 
 ENV KEY value2
 RUN apk add --no-cache nfs-utils rpcbind
-RUN ls /
+RUN ls -la /
 
 COPY container-files /
 
